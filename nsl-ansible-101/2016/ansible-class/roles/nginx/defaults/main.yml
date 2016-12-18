@@ -1,0 +1,9 @@
+---
+# defaults file for nginx
+
+nginx_user: www-data
+nginx_worker_processes: 2
+nginx_worker_connections: 1024
+nginx_sendfile: "on"
+nginx_server_tokens: "off"
+nginx_docroot: /var/www/ansible-class/www

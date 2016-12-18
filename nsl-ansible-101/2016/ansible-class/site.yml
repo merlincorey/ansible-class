@@ -1,0 +1,6 @@
+---
+# site.yml - Entire site playbook
+
+- include: first-play.yml
+- include: control.yml
+- include: web.yml

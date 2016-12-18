@@ -1,0 +1,10 @@
+---
+# file: host_vars/localhost.yml
+
+ansible_connection: local
+
+other_users:
+  - testu1
+  - testu2
+  - testPINKY
+  - testBRAIN

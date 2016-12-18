@@ -1,0 +1,17 @@
+---
+# file: control.yml - Playbook for control machine
+
+- hosts: control
+  become: True
+  tasks:
+    - name: Install software for the control machine
+      apt:
+        name: "{{ item }}"
+      with_items:
+        - tmux
+        - rsync
+        - emacs-nox
+        - yaml-mode
+        - vim
+ 
+        

@@ -1,0 +1,9 @@
+---
+# file: group_vars/debian.yml
+
+ansible_connection: ssh
+ansible_username: admin
+
+other_users:
+  - testu1
+  - testu2
