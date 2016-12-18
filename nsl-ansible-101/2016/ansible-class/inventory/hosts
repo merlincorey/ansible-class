@@ -1,0 +1,13 @@
+[control]
+localhost
+
+[web]
+target
+
+[debian]
+localhost
+target
+
+[class:children]
+control
+web

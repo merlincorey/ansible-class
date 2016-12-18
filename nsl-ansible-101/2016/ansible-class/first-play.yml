@@ -1,0 +1,21 @@
+---
+# first-play.yml - First playbook in the class
+
+- hosts: all
+  become: True
+  tasks:
+    - name: Add my group
+      group:
+        name: merlin
+    - name: Add my user
+      user:
+        name: merlin
+        groups: sudo,merlin 
+    - name: Add other groups
+      group:
+        name: "{{ item }}"
+      with_items: "{{ other_users }}"
+    - name: Add other users
+      user:
+        name: "{{ item }}"
+      with_items:  "{{ other_users }}"

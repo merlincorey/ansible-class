@@ -1,0 +1,7 @@
+---
+# file: web.yml - Playbook for webservers
+
+- hosts: web
+  become: True
+  roles:
+    - nginx

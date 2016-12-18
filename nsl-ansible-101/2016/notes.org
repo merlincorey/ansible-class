@@ -1,0 +1,32 @@
+* Ansible 2
+
+  - Released 2016 January.
+  - Version 2.2 in 2016 December.
+  - Written in Python
+  - Glues together [[http://jinja.pocoo.org/][Jinja2]], [[http://yaml.org/][YAML]], and [[https://www.python.org/][Python]]
+
+** Documentation
+
+   The [[http://docs.ansible.com/][Ansible documentation site]] has a wealth of information.
+   When first [[http://docs.ansible.com/ansible/intro_getting_started.html][getting started]] it is most important to familiarize yourself with [[http://docs.ansible.com/ansible/intro_inventory.html][basic inventory]], [[http://docs.ansible.com/ansible/playbooks.html][playbooks]], and [[http://docs.ansible.com/ansible/modules_by_category.html][modules]].
+   The [[http://docs.ansible.com/ansible/playbooks_best_practices.html][playbook best practices]] guide is well worth a read early on, as well as the [[http://docs.ansible.com/ansible/playbooks_roles.html][playbook roles]].
+
+   After you gain some experience and start to need more from Ansible, you should look into the [[http://docs.ansible.com/ansible/playbooks_special_topics.html][playbook special topics]] and [[http://docs.ansible.com/ansible/intro_dynamic_inventory.html][dynamic inventory]].
+
+** Third Party Roles
+
+   Roles are available all over the internet that other people have written.
+   Of course, these can vary in quality and completeness - but sometimes, just have a base for your needs is a great kickstart to creating your own role.
+
+*** Github
+
+    Many people publish [[https://github.com/search?utf8=%E2%9C%93&q=ansible+role][roles on github]], including my own [[https://github.com/merlincorey/ansible-base-roles][ansible base roles]] from a couple years ago.
+
+*** Ansible Galaxy
+
+    The Ansible Galaxy is, as explained in the [[http://docs.ansible.com/ansible/galaxy.html][documentation]], a website called [[https://galaxy.ansible.com/][Galaxy]], where roles can be published and installed from.
+    A commandline tool called =ansible-galaxy= is provided which allows easy creation of new roles as well as uploading and downloading from the website.
+
+*** Debops
+
+    If you use Debian 8 (or possibly newer), then you might want to check out the work from the [[https://debops.org/][Debops Project]] which provides 111 well curated, designed, and tested roles for managing Debian systems.

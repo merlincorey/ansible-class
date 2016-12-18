@@ -1,0 +1,4 @@
+---
+# file: group_vars/web.yml
+
+nginx_worker_connections: 999

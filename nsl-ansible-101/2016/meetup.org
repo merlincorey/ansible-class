@@ -1,0 +1,43 @@
+* When
+
+  2016 December 17
+
+* Null Space Labs
+
+  [[http://032.la][Null Space Labs]] is a [[http://hackerspaces.org/][hacker space]] in Los Angeles, California.
+  Just about every Saturday a class is held.
+  Check out the [[http://www.meetup.com/NullSpaceLabs/events/][events on MeetUp]] to see what is upcoming.
+
+** Systems Automation 101: Intro to Ansible
+
+   Learn the basics of systems automation with Ansible!
+   From basic orchestration to dynamic systems automation and management, Ansible provides the glue and tooling to manage a variety of machines, virtual machines, containers, or network devices seamlessly.
+   Ansible can be used to manage Unix, Windows, and other hosts, and can target both local and remote machines without the need for running an agent process on the target machines.
+   This class is graciously hosted by Merlin!
+
+*** What will we cover?
+
+    We will use Ansible (version 2) to setup and manage a Linux web server and possibly a Windows dev machine.
+    To do that we'll explore the basics of YAML, Python, and Jinja2 which are the building blocks of Ansible.
+    We'll use Ansible to send commands to machines and then build playbooks and roles to manage them.
+    After that we'll explore third party roles and modules.
+
+*** What does the class cost?
+
+    This class costs $20 for anyone who isn't a member of Null Space Labs.
+    You can pay at the door in cash or here on Meetup via WePay.
+    Please arrange payment with datagram, mmca, or bvector for direct Paypal/Bitcoin payments.
+
+*** First time visiting NSL?
+
+    Check out the [[http://www.meetup.com/NullSpaceLabs/pages/How_do_I_get_inside_NSL%3F][walkthrough]] for getting into the space:
+    - http://www.meetup.com/NullSpaceLabs/pages/How_do_I_get_inside_NSL%3F
+
+*** What do I need to bring?
+
+    Yourself and a laptop with an SSH client.
+
+*** Prepare your brain
+
+    - Ansible is well documented (and we will be referring to it in class) at https://docs.ansible.com/ansible/index.html
+    - An opinionated, far reaching Debian-based role system called DebOps exists: http://debops.org/

@@ -1,0 +1,27 @@
+---
+# tasks file for nginx
+
+- name: Install nginx
+  apt:
+    name: nginx
+
+- name: Template nginx.conf
+  template:
+    src: nginx.conf.j2
+    dest: /etc/nginx/nginx.conf
+  notify: restart nginx
+
+- name: Create document root
+  file:
+    path: "{{ nginx_docroot }}"
+    state: directory
+    owner: "{{ nginx_user }}"
+    group: "{{ nginx_user }}"
+
+- name: Deploy index.html
+  copy:
+    src: index.html
+    dest: "{{ nginx_docroot }}/index.html"
+    owner: "{{ nginx_user }}"
+    group: "{{ nginx_user }}"
+    
